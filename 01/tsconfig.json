@@ -1,0 +1,5 @@
+{
+  "exclude": ["сaesar-cipher-cli", "node_modules", "src/**/*.test.ts"],
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "include": ["src"]
+}

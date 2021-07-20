@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": ["dist", "node_modules", "src/**/*.test.ts"],
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "include": ["src"]
+}
